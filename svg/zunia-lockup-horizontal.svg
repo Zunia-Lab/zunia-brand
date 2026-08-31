@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 72" width="1024" height="230">
+  
+  <g transform="translate(0 4) scale(1.28)" fill="none" stroke="#10214F" stroke-width="9" stroke-linecap="round"><path d="M12 14 H52" transform="translate(-7.5 -9.5)"></path><path d="M12 50 H52" transform="translate(-7.5 -9.5)"></path></g>
+  <g transform="translate(0 4) scale(1.28)" fill="#10214F"><circle cx="31.5" cy="16.5" r="5.2"></circle><circle cx="17.5" cy="28.5" r="5.2"></circle></g>
+  <text class="wm" x="90" y="53" font-size="62" fill="#10214F">zunia</text>
+</svg>

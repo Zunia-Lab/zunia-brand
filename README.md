@@ -2,7 +2,7 @@
 
 > Official logos, colors, typography, and brand assets for Zunia Lab.
 
-[![License](https://img.shields.io/github/license/zunialab/zunia-brand)](LICENSE)
+[![License](https://img.shields.io/github/license/Zunia-Lab/zunia-brand)](LICENSE)
 [![Website](https://img.shields.io/badge/website-zuniawallet.com-2050C4)](https://zuniawallet.com)
 
 ## Overview
@@ -15,19 +15,19 @@ This repository is the canonical source for Zunia brand assets. Use these files 
 
 | Repository | Description |
 |------------|-------------|
-| [zunia-website](https://github.com/zunialab/zunia-website) | Marketing site |
-| [zunia-extension](https://github.com/zunialab/zunia-extension) | Browser extension |
-| [zunia-mobile](https://github.com/zunialab/zunia-mobile) | Mobile wallet |
-| [zunia-dashboard](https://github.com/zunialab/zunia-dashboard) | Web portfolio |
-| [zunia-docs](https://github.com/zunialab/zunia-docs) | Documentation |
-| [zunia-chain-registry](https://github.com/zunialab/zunia-chain-registry) | Chain metadata |
+| [zunia-website](https://github.com/Zunia-Lab/zunia-website) | Marketing site |
+| [zunia-extension](https://github.com/Zunia-Lab/zunia-extension) | Browser extension |
+| [zunia-mobile](https://github.com/Zunia-Lab/zunia-mobile) | Mobile wallet |
+| [zunia-dashboard](https://github.com/Zunia-Lab/zunia-dashboard) | Web portfolio |
+| [zunia-docs](https://github.com/Zunia-Lab/zunia-docs) | Documentation |
+| [zunia-chain-registry](https://github.com/Zunia-Lab/zunia-chain-registry) | Chain metadata |
 
 ## Quick links
 
 Pin assets by release tag for stable URLs:
 
 ```
-https://raw.githubusercontent.com/zunialab/zunia-brand/v1.0.0/png/icons/zunia-icon-cobalt-512.png
+https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/v1.0.0/png/icons/zunia-icon-cobalt-512.png
 ```
 
 ## The mark
@@ -89,11 +89,11 @@ Both are open source (SIL OFL) on [Google Fonts](https://fonts.google.com/).
 
 Brand changes require approval from Zunia Lab. Open an issue before submitting asset changes.
 
-See [CONTRIBUTING.md](https://github.com/zunialab/.github/blob/main/CONTRIBUTING.md).
+See [CONTRIBUTING.md](https://github.com/Zunia-Lab/.github/blob/main/CONTRIBUTING.md).
 
 ## Security
 
-See [SECURITY.md](https://github.com/zunialab/.github/blob/main/SECURITY.md).
+See [SECURITY.md](https://github.com/Zunia-Lab/.github/blob/main/SECURITY.md).
 
 ## License
 

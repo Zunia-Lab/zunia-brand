@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Zunia · email signature</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --ink: #10214f;
+      --paper: #f4f5f7;
+      --cobalt: #2050c4;
+      --black: #101012;
+      --slate: #4a5468;
+      --grey: #6e7280;
+      --hairline: #c7d2ea;
+      --wash: #e4e9f4;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: "Space Grotesk", system-ui, sans-serif;
+      background:
+        radial-gradient(1200px 600px at 10% -10%, rgba(32, 80, 196, 0.12), transparent 55%),
+        radial-gradient(900px 500px at 100% 100%, rgba(16, 33, 79, 0.08), transparent 50%),
+        var(--paper);
+      color: var(--black);
+      padding: 48px 20px 64px;
+    }
+
+    .stage {
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .meta {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 20px;
+    }
+
+    .meta h1 {
+      margin: 0;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: -0.02em;
+      color: var(--ink);
+    }
+
+    .meta p {
+      margin: 4px 0 0;
+      font: 400 11px/1.4 "JetBrains Mono", monospace;
+      color: var(--grey);
+    }
+
+    .badge {
+      font: 500 10px/1 "JetBrains Mono", monospace;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--cobalt);
+      background: var(--wash);
+      padding: 8px 10px;
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+
+    .mail {
+      background: #fff;
+      border: 1px solid var(--hairline);
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow:
+        0 1px 0 rgba(16, 33, 79, 0.04),
+        0 18px 40px rgba(16, 33, 79, 0.07);
+    }
+
+    .mail-chrome {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 18px;
+      background: linear-gradient(180deg, #fbfcfd, #f4f5f7);
+      border-bottom: 1px solid var(--hairline);
+    }
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      background: var(--hairline);
+    }
+    .dot:nth-child(1) { background: #e8b4b4; }
+    .dot:nth-child(2) { background: #e2d2a2; }
+    .dot:nth-child(3) { background: #b8d4b8; }
+
+    .mail-chrome span {
+      margin-left: 8px;
+      font: 400 11px/1 "JetBrains Mono", monospace;
+      color: var(--grey);
+    }
+
+    .mail-body {
+      padding: 28px 28px 8px;
+    }
+
+    .fake-message {
+      margin: 0 0 28px;
+      max-width: 36em;
+      font-size: 15px;
+      line-height: 1.65;
+      color: var(--slate);
+    }
+
+    .fake-message strong {
+      color: var(--ink);
+      font-weight: 500;
+    }
+
+    .sig-wrap {
+      padding: 8px 28px 32px;
+      background:
+        linear-gradient(90deg, transparent, var(--hairline) 0) 0 0 / 100% 1px no-repeat;
+      background-position: top left;
+      background-size: 100% 1px;
+      margin-top: 8px;
+      padding-top: 28px;
+      border-top: 1px solid var(--wash);
+    }
+
+    .hint {
+      margin: 18px 0 0;
+      font: 400 11px/1.5 "JetBrains Mono", monospace;
+      color: var(--grey);
+    }
+
+    .hint code {
+      color: var(--ink);
+      background: var(--wash);
+      padding: 1px 6px;
+      border-radius: 3px;
+    }
+
+    @media (max-width: 560px) {
+      .meta { flex-direction: column; align-items: flex-start; }
+      .mail-body, .sig-wrap { padding-left: 20px; padding-right: 20px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="stage">
+    <div class="meta">
+      <div>
+        <h1>Zunia Lab · email signature</h1>
+        <p>Copy the table below into Gmail / Outlook / Apple Mail</p>
+      </div>
+      <span class="badge">Preview</span>
+    </div>
+
+    <div class="mail">
+      <div class="mail-chrome" aria-hidden="true">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span>New message · hello@zuniawallet.com</span>
+      </div>
+
+      <div class="mail-body">
+        <p class="fake-message">
+          Hi there,<br /><br />
+          Thanks for reaching out. Happy to help with onboarding and
+          <strong>chain registry</strong> questions.<br /><br />
+          Best,
+        </p>
+      </div>
+
+      <div class="sig-wrap">
+        <!-- ========== COPY FROM HERE ========== -->
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-spacing:0;mso-table-lspace:0pt;mso-table-rspace:0pt;font-family:'Space Grotesk',Arial,Helvetica,sans-serif;color:#101012;max-width:440px;">
+          <tr>
+            <td style="padding:0;vertical-align:top;">
+              <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-spacing:0;">
+                <tr>
+                  <!-- Accent bar -->
+                  <td style="width:3px;background-color:#2050C4;border-radius:2px;font-size:0;line-height:0;">&nbsp;</td>
+                  <td style="width:16px;font-size:0;line-height:0;">&nbsp;</td>
+                  <td style="vertical-align:top;padding:0;">
+                    <!-- Mark + identity -->
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-spacing:0;">
+                      <tr>
+                        <td style="vertical-align:middle;padding:0 14px 0 0;">
+                          <a href="https://zuniawallet.com" style="text-decoration:none;border:0;">
+                            <img
+                              src="https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/v1.0.0/png/icons/zunia-icon-cobalt-128.png"
+                              alt="Zunia"
+                              width="44"
+                              height="44"
+                              style="display:block;border:0;outline:none;width:44px;height:44px;border-radius:10px;"
+                            />
+                          </a>
+                        </td>
+                        <td style="vertical-align:middle;padding:0;">
+                          <p style="margin:0;font-size:16px;line-height:1.25;font-weight:600;letter-spacing:-0.03em;color:#10214F;">
+                            Zunia Lab
+                          </p>
+                          <p style="margin:3px 0 0;font-size:12px;line-height:1.35;font-weight:400;color:#4A5468;">
+                            Multi-chain Cosmos wallet
+                          </p>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Divider -->
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" style="border-collapse:collapse;border-spacing:0;margin:0;">
+                      <tr>
+                        <td style="padding:14px 0 12px;height:1px;line-height:1px;font-size:0;">
+                          <div style="height:1px;background-color:#E4E9F4;line-height:1px;font-size:0;">&nbsp;</div>
+                        </td>
+                      </tr>
+                    </table>
+
+                    <!-- Contact -->
+                    <table role="presentation" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;border-spacing:0;">
+                      <tr>
+                        <td style="padding:0 0 6px;font-size:12px;line-height:1.4;color:#6E7280;width:52px;vertical-align:top;">
+                          Email
+                        </td>
+                        <td style="padding:0 0 6px;font-size:13px;line-height:1.4;vertical-align:top;">
+                          <a href="mailto:hello@zuniawallet.com" style="color:#2050C4;text-decoration:none;font-weight:500;">hello@zuniawallet.com</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0 0 6px;font-size:12px;line-height:1.4;color:#6E7280;width:52px;vertical-align:top;">
+                          Web
+                        </td>
+                        <td style="padding:0 0 6px;font-size:13px;line-height:1.4;vertical-align:top;">
+                          <a href="https://zuniawallet.com" style="color:#2050C4;text-decoration:none;">zuniawallet.com</a>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td style="padding:0;font-size:12px;line-height:1.4;color:#6E7280;width:52px;vertical-align:top;">
+                          Code
+                        </td>
+                        <td style="padding:0;font-size:13px;line-height:1.4;vertical-align:top;">
+                          <a href="https://github.com/Zunia-Lab" style="color:#2050C4;text-decoration:none;">github.com/Zunia-Lab</a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+        </table>
+        <!-- ========== COPY TO HERE ========== -->
+      </div>
+    </div>
+
+    <p class="hint">
+      Signature uses <code>zunia-icon-cobalt-128.png</code> from
+      <code>Zunia-Lab/zunia-brand@v1.0.0</code> · email-safe tables + inline CSS
+    </p>
+  </div>
+</body>
+</html>

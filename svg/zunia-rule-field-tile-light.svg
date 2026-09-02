@@ -1,4 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14">
-  <defs><pattern id="f" width="14" height="14" patternUnits="userSpaceOnUse"><path d="M0 13.5 H14" stroke="#10214F" stroke-opacity="0.16" stroke-width="1"></path></pattern></defs>
-  <rect width="14" height="14" fill="#F4F5F7"></rect><rect width="14" height="14" fill="url(#f)"></rect>
-</svg>

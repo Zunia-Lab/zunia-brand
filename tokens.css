@@ -1,0 +1,44 @@
+/* zunia — design tokens */
+:root {
+  --zunia-red: #FF1B0C;
+  --zunia-vermilion: #FF4E12;
+  --zunia-amber: #FF8A17;
+  --zunia-gold: #FFBE14;
+  --zunia-yellow: #FFE05C;
+  --zunia-cross: #D42800;
+  --zunia-ink: #111111;
+  --zunia-ink-2: #444444;
+  --zunia-muted: #666666;
+  --zunia-hint: #9A9A9A;
+  --zunia-line: #E2E0DC;
+  --zunia-paper: #F1F0EE;
+  --zunia-paper-warm: #FAF9F7;
+  --zunia-white: #FFFFFF;
+
+  --zunia-gradient: linear-gradient(120deg, #FF1B0C 0%, #FF6A10 50%, #FFC414 100%);
+  --zunia-gradient-ramp: linear-gradient(90deg, #FF1B0C 0%, #FF4E12 34%, #FF8A17 62%, #FFBE14 82%, #FFE05C 100%);
+
+  --zunia-font: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  --zunia-font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --zunia-tracking-logo: -0.065em;
+  --zunia-tracking-title: -0.05em;
+  --zunia-tracking-body: 0;
+
+  --zunia-radius-sm: 8px;
+  --zunia-radius: 14px;
+  --zunia-radius-lg: 22px;
+  --zunia-radius-pill: 999px;
+
+  --zunia-shadow-sm: 0 6px 16px rgba(17, 17, 17, .08);
+  --zunia-shadow: 0 14px 36px rgba(17, 17, 17, .10);
+  --zunia-shadow-warm: 0 12px 28px rgba(255, 45, 31, .28);
+}
+
+[data-theme="dark"] {
+  --zunia-ink: #FFFFFF;
+  --zunia-ink-2: #C9C6C1;
+  --zunia-muted: #8A8A8A;
+  --zunia-line: rgba(255, 255, 255, .14);
+  --zunia-paper: #0B0A09;
+  --zunia-paper-warm: #161311;
+}

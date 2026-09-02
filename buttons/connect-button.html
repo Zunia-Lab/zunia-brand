@@ -1,0 +1,38 @@
+<!-- Connect with zunia — official button -->
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+<style>
+  .zunia-connect {
+    display: inline-flex; align-items: center; justify-content: center; gap: 14px;
+    height: 48px; padding: 0 24px; border: 0; border-radius: 24px;
+    background: #111111; color: #FFFFFF; cursor: pointer;
+    font: 600 16px/1 'Space Grotesk', system-ui, sans-serif; letter-spacing: -.01em;
+    transition: transform .18s ease, background .18s ease;
+  }
+  .zunia-connect:hover { background: #24211F; transform: translateY(-1px); }
+  .zunia-connect:active { transform: none; }
+  .zunia-connect[disabled] { background: #F1F0EE; color: #B4B1AC; cursor: not-allowed; transform: none; }
+  .zunia-connect--lg { height: 56px; padding: 0 28px; border-radius: 28px; font-size: 19px; }
+  .zunia-connect--sm { height: 40px; padding: 0 20px; border-radius: 20px; font-size: 14px; }
+  .zunia-connect--gradient { background: linear-gradient(120deg, #FF1B0C, #FF6A10 50%, #FFB914); }
+  .zunia-connect--gradient:hover { background: linear-gradient(120deg, #FF3A22, #FF7F26 50%, #FFC633); }
+  .zunia-connect--light { background: #FFFFFF; color: #111111; box-shadow: inset 0 0 0 2px #E2E0DC; }
+  .zunia-connect--light:hover { background: #FAF9F7; }
+  .zunia-connect svg { display: block; flex: none; }
+</style>
+
+<button class="zunia-connect" type="button">
+  <svg viewBox="0 0 96 120" width="22" height="28" aria-hidden="true">
+    <defs>
+      <linearGradient id="zca" x1=".1" y1="0" x2=".95" y2=".9"><stop offset="0" stop-color="#FF1B0C"/><stop offset=".55" stop-color="#FF4E12"/><stop offset="1" stop-color="#FF8A17"/></linearGradient>
+      <linearGradient id="zcb" x1=".1" y1="1" x2=".95" y2=".1"><stop offset="0" stop-color="#FF9A05"/><stop offset=".55" stop-color="#FFBE14"/><stop offset="1" stop-color="#FFE05C"/></linearGradient>
+      <mask id="zcm" maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="120">
+        <path d="M26 20 L70 46 L26 72" fill="none" stroke="#FFFFFF" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+      </mask>
+      <linearGradient id="zcx" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#D42800"/><stop offset="1" stop-color="#FF6A05"/></linearGradient>
+    </defs>
+    <path d="M26 20 L70 46 L26 72" fill="none" stroke="url(#zca)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M26 48 L70 74 L26 100" fill="none" stroke="url(#zcb)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/>
+    <g mask="url(#zcm)"><path d="M26 48 L70 74 L26 100" fill="none" stroke="url(#zcx)" stroke-width="24" stroke-linecap="round" stroke-linejoin="round"/></g>
+  </svg>
+  Connect with zunia
+</button>

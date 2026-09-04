@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/main/png/logo/zunia-logo-on-dark-800.png" alt="Zunia" width="280" />
+</p>
+
 # zunia-brand
 
 > Official logos, colors, typography, and brand assets for Zunia Lab.
@@ -28,9 +32,18 @@ Pin assets by release tag for stable URLs:
 
 ```
 https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/main/png/icons/app/zunia-icon-512.png
+https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/main/png/logo/zunia-logo-on-dark-800.png
 https://raw.githubusercontent.com/Zunia-Lab/zunia-brand/main/svg/zunia-mark-clean.svg
 ```
 
+## GitHub and social
+
+| Surface | Asset |
+|---------|-------|
+| Org profile README | `png/logo/zunia-logo-on-dark-800.png` |
+| Org / social avatar | `png/icons/profile/zunia-profile-512.png` |
+| App / repo icon | `png/icons/app/zunia-icon-512.png` |
+| Light README lockup | `png/logo/zunia-logo-gradient-800.png` |
 ## The mark
 
 Two identical chevrons on a 96 x 120 grid, 24 stroke, round caps.

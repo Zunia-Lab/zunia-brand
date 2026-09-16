@@ -7,7 +7,7 @@
 > Official logos, colors, typography, and brand assets for Zunia Lab.
 
 [![License](https://img.shields.io/github/license/Zunia-Lab/zunia-brand)](LICENSE)
-[![Website](https://img.shields.io/badge/website-zuniawallet.com-FF1B0C)](https://zuniawallet.com)
+[![Website](https://img.shields.io/badge/website-zunialab.com-FF1B0C)](https://zunialab.com)
 
 ## Overview
 
